@@ -1,0 +1,13 @@
+I declare that the work I have submitted for Stage 3 of this
+assignment and all stages before it is entirely my own work, with the
+following documented exceptions:
+
+I used Oracle documentation to find out the available javafx functions.
+The Oracle tutorial from the following web page was used to learn from 
+and broaden my understanding of animation in javafx 
+http://docs.oracle.com/javafx/2/animations/basics.htm#CJAFADFJ
+
+Comp1510 lecture code and lecture notes on javafx, specifically on key event
+handlers, were reviewed as examples of javafx syntax.   
+
+Signed: Robert Blaszkowski (u5010309)

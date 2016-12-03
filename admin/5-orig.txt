@@ -1,0 +1,33 @@
+We declare that the work we have submitted for Stage 5 of this
+assignment and all stages before it is entirely our own work, with the
+following documented exceptions:
+
+-	Ryan Rushton u5192657
+	
+	This was used to see how to set up InputStream’s
+	http://stackoverflow.com/questions/3369794/how-to-a-read-file-from-jar-in-java
+	
+	This game the idea of using BufferedReader and Input Stream
+	http://stackoverflow.com/questions/2271926/how-to-read-a-file-from-a-jar-file
+
+	These were used to see how to read lines using BufferedReader.
+	http://stackoverflow.com/questions/16104616/using-bufferedreader-to-read-text-file
+	http://stackoverflow.com/questions/14961232/bufferedreader-not-returning-null-at-the-last-line
+
+	The frame per second function was copy and pasted from the Caterpillar game
+	that was made in class.
+	
+	The TextBack Class was inspired from the Caterpillar class from the game built in class.
+	
+	In everything I use the Oracle Java documentation to find functions and parameters for 
+	classes already included in the Java library.
+
+
+- u5010309 All graphics where original, drawn by me. Lecture code examples for the caterpillar game
+were used in understanding how to go about introducing and setting up a graphical display for the game. 
+
+-u5194042
+- All code was created as my own, however, due to the similar nature of our classes, my getsLongest class is inspired
+-by the code that was in Ryan's original Choice.
+
+Signed: Robert Blaszkowski (u5010309), Aiden Brown (u5194042), and Ryan Rushton (u5192657)

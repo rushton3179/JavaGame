@@ -1,0 +1,120 @@
+/*import Longest;
+
+import game.Bucket;
+import game.DictionaryOps;
+import game.Game;
+
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.TimerTask;
+
+
+public class AddingTask extends TimerTask{
+	
+	static int choice;
+	static int longest;
+	static String previewString;
+	public void run(){
+
+		Random rand = new Random();
+		char randlet = Bucket.alphaArray[rand.nextInt(Bucket.alphabet.length())];
+		char randvowel = Bucket.alphaArray[rand.nextInt(5)];
+
+
+ * Prints out test on the screen for debugging as well as cancels the method if the statements are reached
+ 
+		
+		if (Bucket.bucket.size()==33){
+			System.out.println("You have lost.");
+			this.cancel();
+		}
+		else if (Game.count>47){
+			System.out.println("You have won!");
+			this.cancel();
+		}
+		
+
+ * if the number of letters in the bucket is less then 33 then it runs this method		
+ 
+		
+
+ * first note it adds a the first letter of preview to the bucket if the preview size is 2
+ 
+		
+		else if (Bucket.bucket.size()!=33 && Game.count!=48){      
+			if(Bucket.preview.size() == 2){
+				Bucket.bucket.add(Bucket.preview.get(0));
+				Bucket.preview.remove(0);
+			}
+			
+
+ * if the bucket is empty or it contains a vowel it adds a letter from our scrabble list of letters			
+ 
+			if(Bucket.bucket.isEmpty()|| 
+					Bucket.bucket.contains(Bucket.alphaArray[0])||
+					Bucket.bucket.contains(Bucket.alphaArray[1])||
+					Bucket.bucket.contains(Bucket.alphaArray[2])||
+					Bucket.bucket.contains(Bucket.alphaArray[3])||
+					Bucket.bucket.contains(Bucket.alphaArray[4])||
+					Bucket.preview.contains(Bucket.alphaArray[0])||
+					Bucket.preview.contains(Bucket.alphaArray[1])||
+					Bucket.preview.contains(Bucket.alphaArray[2])||
+					Bucket.preview.contains(Bucket.alphaArray[3])||
+					Bucket.preview.contains(Bucket.alphaArray[4])){
+				Bucket.preview.add(randlet);
+				Game.count++;
+
+			}
+
+ * if it doesn't contain a vowel it forces it to have a vowel			
+ 
+
+			else{
+				Bucket.preview.add(randvowel);
+				Game.count++;
+			}
+			
+
+ * if the two letters of the preview are the same then this creates an array containing all letters
+ * of our scabble alphabet except for the doubled letter, then deletes the 2nd letter and adds a 
+ * new one from the array
+ 
+			
+			if(Bucket.preview.size()==2 && Bucket.preview.get(0) == Bucket.preview.get(1)){
+				ArrayList<Character> reducedList = new ArrayList<Character>();
+				char[] reduced = Bucket.alphabet.toCharArray();
+				for(int i = 0; i < reduced.length; i++){
+					reducedList.add(reduced[i]);
+				}
+				while(reducedList.contains(Bucket.preview.get(1))){
+				reducedList.remove(Bucket.preview.get(1));
+				}
+				Bucket.preview.remove(1);
+				Bucket.preview.add(reducedList.get(rand.nextInt(reducedList.size())));
+			}
+			
+			
+			choice = DictionaryOps.getsChoice(Bucket.bucket);
+			try {
+				longest  = Longest.getsLongest(Bucket.bucket);
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			previewString = Bucket.preview.toString();
+	
+
+ * prints out parts of the game for debugging
+ 
+			
+			System.out.println(previewString);
+			System.out.println(Bucket.bucket);
+			System.out.print("Size of the bucket is "+Bucket.bucket.size());
+			System.out.print(", choice is "+choice);
+			System.out.print(", longest is "+longest);
+			System.out.println(", you are "+ (48 - Game.count) +" letters away from winning!"); 
+		}
+	}
+}
+*/

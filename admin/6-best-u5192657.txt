@@ -1,0 +1,11 @@
+I submit the class TextBack for assessment as my best class.
+
+I declare that this class is entirely my own work, with the following
+documented exceptions:
+
+- It was modeled after the Caterpillar class done in lectures.
+
+-The idea was conceived after I could not find an easy efficient way to 
+	stream in graphics when they were being constantly updated.
+
+Signed: Ryan Rushton (u5192657)

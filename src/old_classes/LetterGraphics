@@ -1,0 +1,146 @@
+/*package game;
+
+import javafx.scene.image.Image;
+
+public class LetterGraphics{
+
+	public LetterGraphics(){}
+
+	Image a = new Image(getClass().getResource("A.png").toString());
+	Image b = new Image(getClass().getResource("B.png").toString());
+	Image c = new Image(getClass().getResource("C.png").toString());
+	Image d = new Image(getClass().getResource("D.png").toString());
+	Image e = new Image(getClass().getResource("E.png").toString());
+	Image f = new Image(getClass().getResource("F.png").toString());
+	Image g = new Image(getClass().getResource("G.png").toString());
+	Image h = new Image(getClass().getResource("H.png").toString());
+	Image i = new Image(getClass().getResource("I.png").toString());
+	Image j = new Image(getClass().getResource("J.png").toString());
+	Image k = new Image(getClass().getResource("K.png").toString());
+	Image l = new Image(getClass().getResource("L.png").toString());
+	Image m = new Image(getClass().getResource("M.png").toString());
+	Image n = new Image(getClass().getResource("N.png").toString());
+	Image o = new Image(getClass().getResource("O.png").toString());
+	Image p = new Image(getClass().getResource("P.png").toString());
+	Image q = new Image(getClass().getResource("Q.png").toString());
+	Image r = new Image(getClass().getResource("R.png").toString());
+	Image s = new Image(getClass().getResource("S.png").toString());
+	Image t = new Image(getClass().getResource("T.png").toString());
+	Image u = new Image(getClass().getResource("U.png").toString());
+	Image v = new Image(getClass().getResource("V.png").toString());
+	Image w = new Image(getClass().getResource("W.png").toString());
+	Image x = new Image(getClass().getResource("X.png").toString());
+	Image y = new Image(getClass().getResource("Y.png").toString());
+	Image z = new Image(getClass().getResource("Z.png").toString());
+	
+	public Image getLetter(Character chr){
+		
+		InputStream inputA = this.getClass().getResourceAsStream("A.png");
+		BufferedImage a = ImageIO.read(inputA);
+		
+		InputStream inputB = this.getClass().getResourceAsStream("B.png");
+		BufferedImage b = ImageIO.read(inputB);
+		
+		InputStream inputC = this.getClass().getResourceAsStream("C.png");
+		BufferedImage c = ImageIO.read(inputC);
+		
+		InputStream inputD = this.getClass().getResourceAsStream("D.png");
+		BufferedImage d = ImageIO.read(inputD);
+		
+		InputStream inputE = this.getClass().getResourceAsStream("E.png");
+		BufferedImage e = ImageIO.read(inputE);
+		
+		InputStream inputF = this.getClass().getResourceAsStream("F.png");
+		BufferedImage f = ImageIO.read(inputF);
+		
+		InputStream inputG = this.getClass().getResourceAsStream("G.png");
+		BufferedImage g = ImageIO.read(inputG);
+		
+		InputStream inputH = this.getClass().getResourceAsStream("H.png");
+		BufferedImage h = ImageIO.read(inputH);
+		
+		InputStream inputI = this.getClass().getResourceAsStream("I.png");
+		BufferedImage i = ImageIO.read(inputI);
+		
+		InputStream inputJ = this.getClass().getResourceAsStream("J.png");
+		BufferedImage j = ImageIO.read(inputJ);
+		
+		InputStream inputK = this.getClass().getResourceAsStream("K.png");
+		BufferedImage k = ImageIO.read(inputK);
+		
+		InputStream inputL = this.getClass().getResourceAsStream("L.png");
+		BufferedImage l = ImageIO.read(inputL);
+		
+		InputStream inputM = this.getClass().getResourceAsStream("M.png");
+		BufferedImage m = ImageIO.read(inputM);
+		
+		InputStream inputN = this.getClass().getResourceAsStream("N.png");
+		BufferedImage n = ImageIO.read(inputN);
+		
+		InputStream inputO = this.getClass().getResourceAsStream("O.png");
+		BufferedImage o = ImageIO.read(inputO);
+		
+		InputStream inputP = this.getClass().getResourceAsStream("P.png");
+		BufferedImage p = ImageIO.read(inputP);
+		
+		InputStream inputQ = this.getClass().getResourceAsStream("Q.png");
+		BufferedImage q = ImageIO.read(inputQ);
+		
+		InputStream inputR = this.getClass().getResourceAsStream("R.png");
+		BufferedImage r = ImageIO.read(inputR);
+		
+		InputStream inputS = this.getClass().getResourceAsStream("S.png");
+		BufferedImage s = ImageIO.read(inputS);
+		
+		InputStream inputT = this.getClass().getResourceAsStream("T.png");
+		BufferedImage t = ImageIO.read(inputT);
+		
+		InputStream inputU = this.getClass().getResourceAsStream("U.png");
+		BufferedImage u = ImageIO.read(inputU);
+		
+		InputStream inputV = this.getClass().getResourceAsStream("V.png");
+		BufferedImage v = ImageIO.read(inputV);
+		
+		InputStream inputW = this.getClass().getResourceAsStream("W.png");
+		BufferedImage w = ImageIO.read(inputW);
+		
+		InputStream inputX = this.getClass().getResourceAsStream("X.png");
+		BufferedImage x = ImageIO.read(inputX);
+		
+		InputStream inputY = this.getClass().getResourceAsStream("Y.png");
+		BufferedImage y = ImageIO.read(inputY);
+		
+		InputStream inputZ = this.getClass().getResourceAsStream("Z.png");
+		BufferedImage z = ImageIO.read(inputZ);
+		
+		switch(chr){
+		case 'a': return a;
+		case 'b': return b;
+		case 'c': return c;
+		case 'd': return d;
+		case 'e': return e;
+		case 'f': return f;
+		case 'g': return g;
+		case 'h': return h;
+		case 'i': return i;
+		case 'j': return j;
+		case 'k': return k;
+		case 'l': return l;
+		case 'm': return m;
+		case 'n': return n;
+		case 'o': return o;
+		case 'p': return p;
+		case 'q': return q;
+		case 'r': return r;
+		case 's': return s;
+		case 't': return t;
+		case 'u': return u;
+		case 'v': return v;
+		case 'w': return w;
+		case 'x': return x;
+		case 'y': return y;
+		case 'z': return z;
+		}
+		return null;
+	}
+}*/

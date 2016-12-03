@@ -1,0 +1,16 @@
+I declare that the work I have submitted for Stage 4 of this
+assignment and all stages before it is entirely my own work, with the
+following documented exceptions:
+
+-(DictionaryOps.getsChoice) To read a line of text into an array, we used 
+	www.stackoverflow.com/question/2977075/java-how-to-read-a-txt-file-into-an-array-of-strings 
+	and the Oracle documentation as a reference point to start.
+
+-(DictionaryOps.isLegalWord) To find the file without having to include the full directory we used 
+	www.stackoverflow.com/question/2792870/java-cant-find-file-when-running-through-eclipse 
+	and then wrote our own version of the code.
+	
+-The framework for the tests was derived from the the work done in class, the tests themselves are 
+	my own ideas.
+
+Signed: Ryan Rushton u5192657

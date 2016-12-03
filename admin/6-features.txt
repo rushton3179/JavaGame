@@ -1,0 +1,25 @@
+Our project implements the following features.
+
+('X' indicates implemented, '-' indicates unimplemented).
+
+ X correctly sized screen in JavaFX
+ X an RLG (random letter generator), which may be very simple
+ X preview
+ X scoring
+ X multiple levels
+ X an RLG which is not simply random
+ X displays 'choice' (number of valid words in bucket)
+ X displays 'longest' (length of longest valid word in bucket)
+ X executes at 60fps
+ X an RLG that intelligently selects letters
+ X implements 'shake' (randomizes placement of letters in bucket)
+ X interesting arrangement and movement of letters within bucket
+
+additional features...
+
+Menu screen, game can be restarted multiple times in the one game session
+Highest score exclusive to current game session
+All original artwork and music
+
+   
+

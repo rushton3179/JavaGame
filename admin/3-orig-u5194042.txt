@@ -1,0 +1,10 @@
+I declare that the work I have submitted for Stage 3 of this
+assignment and all stages before it is entirely my own work, with the
+following documented exceptions:
+
+- The idea of deciding on how to find the longest word came from a discussion between myself and  both Rob u5010309 and Ryan u5192657
+
+- The code in class Longest uses an idea suggested by Ryan.  Ryan suggested that I look at the class Choice,
+ from which I concluded that the functionality as inherently similar to a function to find the longest possible word. Due to this, my code has been heavily inspired by Choice
+
+Signed: Aiden Brown (u5194042)

@@ -1,0 +1,10 @@
+I declare that the work I have submitted for Stage 4 of this
+assignment and all stages before it is entirely my own work, with the
+following documented exceptions:
+
+- The idea of <TestLongest> came from a discussion with <Ryan Rushton>
+
+- The code in class <TestLongest> uses an idea suggested by <Ryan Rushton>
+
+
+Signed: Aiden Brown (u5194042)

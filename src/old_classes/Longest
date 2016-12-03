@@ -1,0 +1,65 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+
+ /*u5194042:  This class is designed to present the longest possible word from the array of the bucket. 
+ * --THIS IS THE BEST IDEA I THINK the other way that it can be done is to list the words in the
+ * --text file in descending order, and then go through all possible words in the bucket array.
+ * --that way the first word that it finds as a match is the longest possible word.  
+ * The final implementation was not like I had planned in terms of inverting the text file.  Instead it is similar to the choice method. 
+ * The basic functionality is that the method starts at a length of 0.  When it finds a match that is greater than 0 it replaces the longest
+ * possible word with that one.  It goes through the text file until there is no more lines. */
+ 
+public class Longest {
+	static int longestNum;
+
+	/**
+	 * @param args
+	 * @return 
+	 */
+/* Inspired by the code for Choice by Ryan Rushton */
+	
+	public static int getsLongest (ArrayList<Character> bucketlist) throws FileNotFoundException{
+		File dict = new File("dictionary.txt");
+		String path = dict.getPath();
+		File dictionary = new File(path);
+		Scanner file = new Scanner(dictionary);
+		longestNum = 0;
+
+		while(file.hasNextLine()){
+			String word = file.nextLine();
+			ArrayList<Character> wordlist = new ArrayList<Character>();
+			
+			for(int i = 0; i < word.length(); i++){
+				wordlist.add(word.charAt(i));
+			}
+			
+			
+			if(bucketlist.containsAll(wordlist)){
+				for(int i = 0; i < bucketlist.size(); i++){							
+					wordlist.remove(bucketlist.get(i));
+				}
+				if(wordlist.size() == 0 && word.length()> longestNum){
+					longestNum = word.length();					
+			}}}
+		file.close();
+		return longestNum;
+		}
+	}
+
+
+
+/* things that this function needs to look at:
+	 * - Bucket
+	 * - Dictionary
+	 * need to somehow get the function to use Choice to look at all possible combos and then find the longest one*/
+	  
+	
+		
+		
+
+
+

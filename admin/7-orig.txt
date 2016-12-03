@@ -1,0 +1,82 @@
+We declare that the work we have submitted for Stage 7 of this
+assignment and all stages before it is entirely our own work, with the
+following documented exceptions:
+
+
+
+-All artwork; background, menu and sprite images are original art by Robert Blaszkowski u5010309
+-Music by Ryan Rushton
+
+-(DictionaryOps) To read a line of text into an array, we used 
+	www.stackoverflow.com/question/2977075/java-how-to-read-a-txt-file-into-an-array-of-strings 
+	and the Oracle documentation as a reference point to start.
+
+-(DictionaryOps) To find the file without having to include the full directory we used 
+	www.stackoverflow.com/question/2792870/java-cant-find-file-when-running-through-eclipse 
+	and then wrote our own version of the code.
+
+-(RLG) to understand thread syntax we looked at the following examples 
+	www.stackoverflow.com/questions/12191029/running-two-independent-tasks-simultaneously-using-threads 
+	and http://enos.itcollege.ee/~jpoial/docs/tutorial/essential/threads/timer.html
+
+-(Robs original implentation of Game)
+	I used Oracle documentation to find out the available javafx functions.
+	The Oracle tutorial from the following web page was used to learn from 
+	and broaden my understanding of animation in javafx 
+	http://docs.oracle.com/javafx/2/animations/basics.htm#CJAFADFJ
+
+	Comp1510 lecture code and lecture notes on javafx, specifically on key event
+	handlers, were reviewed as examples of javafx syntax.   
+
+-(Ryan for Score)
+	This code for Score was developed completely by myself. The scoring pattern is based
+	off the scoring pattern of Scrabble but with length bonuses added.
+	
+-(Aiden's part of DictionaryOps)
+	The idea of deciding on how to find the longest word came from a discussion between myself and  
+	both Rob u5010309 and Ryan u5192657
+
+	The code in class Longest uses an idea suggested by Ryan.  Ryan suggested that I look at the 
+	class Choice, from which I concluded that the functionality as inherently similar to a function 
+	to find the longest possible word. Due to this, my code has been heavily inspired by Choice
+
+-(Ryan's modification of the game for a jar file as well as TextBack)
+	
+	This was used to see how to set up InputStream���s
+	http://stackoverflow.com/questions/3369794/how-to-a-read-file-from-jar-in-java
+	
+	This game the idea of using BufferedReader and Input Stream
+	http://stackoverflow.com/questions/2271926/how-to-read-a-file-from-a-jar-file
+
+	These were used to see how to read lines using BufferedReader.
+	http://stackoverflow.com/questions/16104616/using-bufferedreader-to-read-text-file
+	http://stackoverflow.com/questions/14961232/bufferedreader-not-returning-null-at-the-last-line
+
+	The frame per second function was copy and pasted from the Caterpillar game
+	that was made in class.
+	
+	The TextBack Class was inspired from the Caterpillar class from the game built in class.
+	
+	In everything I use the Oracle Java documentation to find functions and parameters for 
+	classes already included in the Java library.
+
+
+-(Rob on graphics and implementing them in the game) 
+	All graphics where original, drawn by me. Lecture code examples for the caterpillar game
+	were used in understanding how to go about introducing and setting up a graphical display for the game. 
+
+-(Ryan music implementation)
+	The code to play music was taken directly from the Caterpillar game made in lectures.
+	
+-(Aiden's StartMenu)
+	This was used to figure out buttons - http://docs.oracle.com/javafx/2/ui_controls/button.htm
+	This was used for mouse events - http://java-buddy.blogspot.com.au/2012/03/detect-mouse-event.html
+	Also, for mouse events - http://docs.oracle.com/javase/7/docs/api/java/awt/event/MouseEvent.html
+	
+-(Ryan cannon fire)
+	Used this sound for cannon fire - http://soundbible.com/909-Cannon.html
+	It states on the site that its Public Domain.
+	Modified the media playback from the Caterpillar Game.
+
+
+Signed: Robert Blaszkowski (u5010309), Ryan Rushton (u5192657), and Aiden Brown (u5194042)

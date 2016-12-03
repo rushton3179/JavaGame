@@ -1,0 +1,18 @@
+We declare that the work we have submitted for Stage 2 of this
+assignment and all stages before it is entirely our own work, with the
+following documented exceptions:
+
+-(Choice) To read a line of text into an array, we used 
+	www.stackoverflow.com/question/2977075/java-how-to-read-a-txt-file-into-an-array-of-strings 
+	and the Oracle documentation as a reference point to start.
+
+-(Compare) To find the file without having to include the full directory we used 
+	www.stackoverflow.com/question/2792870/java-cant-find-file-when-running-through-eclipse 
+	and then wrote our own version of the code.
+
+-(Modbucket) to understand thread syntax we looked at the following examples 
+	www.stackoverflow.com/questions/12191029/running-two-independent-tasks-simultaneously-using-threads 
+	and http://enos.itcollege.ee/~jpoial/docs/tutorial/essential/threads/timer.html
+ 
+
+Signed: Aiden Brown (u5194042), Ryan Rushton (u5192657), and Rob Blaszkowski (u5010309)

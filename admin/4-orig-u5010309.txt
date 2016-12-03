@@ -1,0 +1,7 @@
+I declare that the work I have submitted for Stage 4 of this
+assignment and all stages before it is entirely my own work, with the
+following documented exceptions:
+
+The AlteringBucket class and its Junit tests were my own. 
+
+Signed: Robert Blaszkowski (u5010309)

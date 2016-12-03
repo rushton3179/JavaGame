@@ -1,0 +1,106 @@
+
+
+/*
+import java.io.FileNotFoundException;
+import java.util.*;
+
+
+public class Modbucket {
+	static int count = 0; //counts number of letters added to the bucket
+	static int limit = 0; //counts number of letters in the bucket
+	
+	public static void main(String[] args){
+		int seconds = 2; //variable can be changed to increase difficulty
+		
+		for (int i=0; i!=26; i++){
+			Bucket.listOfArraysB2.add(Bucket.alphaArray[i]);
+			}
+		Timer timer = new Timer();
+		Adding task = new Adding();
+		timer.schedule(task, seconds*1000, seconds*1000); //task, start time, period between adding letters
+		taking.start();	
+	}
+	
+// Takes inputs to check and modify bucket,terminates if winning or losing conditions are met
+	static Thread taking = new Thread(){
+		public void run(){
+			ArrayList<Character> listOfArraysW = new ArrayList<Character>();
+			Scanner in = new Scanner(System.in);
+
+			while (Bucket.listOfArraysB.size()<32 && count<48){
+				System.out.println("Enter in a word: ");
+				String word = in.nextLine();
+				char[] wordArray = word.toCharArray();
+				
+				for(int i = word.length()-1;i>=0;i--){
+					listOfArraysW.add(wordArray[i]);//creates a list from the word's char array
+				}
+				//checks if word is contained in the bucket and is in the dictionary, removes from bucket if true
+				try{
+					if(Bucket.listOfArraysB.containsAll(listOfArraysW) && Compare.isWord(word)){
+						System.out.println("works");
+						for(int b = word.length()-1;b>=0;b--){							
+							Bucket.listOfArraysB.remove(Bucket.listOfArraysB.indexOf(wordArray[b]));
+						}
+					}   
+				}
+				catch (FileNotFoundException e){
+				}
+				listOfArraysW.clear();//clears word list so a new word can be added 
+			}
+			in.close();
+		}
+	};
+}
+
+class Adding extends TimerTask{public void run(){
+	
+	char randlet = Bucket.alphaArray[(int)(26*Math.random())];
+	char randvowel = Bucket.alphaArray[(int)(5*Math.random())];
+	
+	if (Modbucket.count>47){
+		System.out.println("You have won!");
+		this.cancel();
+	}
+	else if (Bucket.listOfArraysB.size()>32){
+		System.out.println("You have lost.");
+		this.cancel();
+	}
+	
+	if (Bucket.listOfArraysB.size()!=32 && Modbucket.count!=48){      //vowel check for enhanced RLG
+		if(Bucket.listOfArraysB.isEmpty()|| 
+				Bucket.listOfArraysB.contains(Bucket.alphaArray[0])||
+				Bucket.listOfArraysB.contains(Bucket.alphaArray[1])||
+				Bucket.listOfArraysB.contains(Bucket.alphaArray[2])||
+				Bucket.listOfArraysB.contains(Bucket.alphaArray[3])||
+				Bucket.listOfArraysB.contains(Bucket.alphaArray[4])){
+			Bucket.listOfArraysB.add(randlet);
+			
+			if(Bucket.listOfArraysB.size()>1 && //this makes sure values are not repeated directly after each other
+					Bucket.listOfArraysB.get(Bucket.listOfArraysB.size()-1)==
+						Bucket.listOfArraysB.get(Bucket.listOfArraysB.size()-2)){
+			Bucket.listOfArraysB2.remove(Bucket.listOfArraysB.get(Bucket.listOfArraysB.size()-1)); 
+			Bucket.listOfArraysB2.add(Bucket.listOfArraysB.get(Bucket.listOfArraysB.size()-1));
+			Bucket.listOfArraysB.remove(Bucket.listOfArraysB.size()-1);
+			Bucket.listOfArraysB.add(Bucket.listOfArraysB2.get((int)(24*Math.random())));}
+			System.out.println(Bucket.listOfArraysB);
+			Modbucket.count++;
+		}
+		else{
+			Bucket.listOfArraysB.add(randvowel);
+			System.out.println(Bucket.listOfArraysB);
+			Modbucket.count++;
+		}
+		System.out.print("Size of the bucket is "+Bucket.listOfArraysB.size());
+		try{
+			System.out.print(", choice is "+Choice.choice(Bucket.listOfArraysB)); 
+		} 
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		System.out.println(", you are "+ (48 - Modbucket.count) +" letters away from winning!"); 
+	}
+
+}
+}
+*/

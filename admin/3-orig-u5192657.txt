@@ -1,0 +1,11 @@
+I declare that the work I have submitted for Stage 3 of this
+assignment and all stages before it is entirely my own work, with the
+following documented exceptions:
+
+- This code for Score was developed completely by myself. The scoring pattern is based
+	off the scoring pattern of Scrabble but with length bonuses added.
+	
+- Implementing this code into the graphical game was done with Robert Blaszkowski as he built the 
+	code for the currently implemented graphical display.
+
+Signed: Ryan Rushton (u5192657)

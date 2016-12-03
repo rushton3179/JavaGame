@@ -1,0 +1,10 @@
+I submit the class <StartMenu> for assessment as my best class.
+
+I declare that this class is entirely my own work, with the following
+documented exceptions:
+
+- This was used to figure out buttons - http://docs.oracle.com/javafx/2/ui_controls/button.htm
+- This was used for mouse events - http://java-buddy.blogspot.com.au/2012/03/detect-mouse-event.html
+
+
+Signed: Aiden Brown (u5194042)
